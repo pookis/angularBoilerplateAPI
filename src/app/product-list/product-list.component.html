@@ -1,0 +1,24 @@
+<p>product-list works!</p>
+<br>
+<table border=1>
+    <tr>
+        <th>ID</th>
+        <th>Product Name </th>
+        <th> Product Price</th>
+    </tr>
+    <tr *ngFor="let product of products_list">
+<td>{{product.id}}</td>
+<td>{{product.pname}}</td>
+<td>{{product.price}}</td>
+    </tr>
+</table>
+<hr>
+
+<form #f1="ngForm">
+Enter Product Name : <input type="text" name="txt_pname" [(ngModel)]="pname">
+<br>
+Enter Product Price : <input type="text" name="txt_price" [(ngModel)]="price">
+<br>
+<button (click)="SaveNewProduct(f1.value)">Save</button>
+</form>
+{{f1.value|json}}

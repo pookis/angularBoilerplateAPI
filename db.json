@@ -1,0 +1,54 @@
+{
+  "tbl_products": [
+    {
+      "pname": "nokia mobile",
+      "price": 120,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "pname": "samsung",
+      "price": 600
+    },
+    {
+      "id": 3,
+      "pname": "redmi",
+      "price": 400
+    },
+    {
+      "id": 2,
+      "pname": "samsung",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "pname": "apple",
+      "price": 555
+    },
+    {
+      "id": 3,
+      "pname": "redmi",
+      "price": 700
+    },
+    {
+      "pname": "redmi",
+      "price": "4000",
+      "id": 5
+    },
+    {
+      "pname": "redmi",
+      "price": "4000",
+      "id": 6
+    },
+    {
+      "pname": "redmi",
+      "price": "400",
+      "id": 7
+    },
+    {
+      "pname": "redmi",
+      "price": "400",
+      "id": 8
+    }
+  ]
+}
