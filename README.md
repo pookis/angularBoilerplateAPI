@@ -3,5 +3,5 @@
 Instructions:
 
 1. npm install
-2. json-server --watch db.json Starts local json server on port: http://localhost:3000/tbl_products 
+2. json-server --watch db.json (Starts local json server on port: http://localhost:3000/tbl_products)
 
