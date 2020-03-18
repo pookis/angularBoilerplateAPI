@@ -1,4 +1,4 @@
-## Angular 8+ API connection boilerplate using local json server
+## Angular 8+ API (HTTP) connection boilerplate using local json server
 
 Instructions:
 
